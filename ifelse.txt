@@ -1,0 +1,15 @@
+alert("You are in the World of Aliens to get out of it: You want to kill them by the weapon");
+
+var weapon = prompt("What weapon did you choose: Gun or Sword ?");
+
+var randomnumber = math.round(math.random());
+
+   alert("Kill the Alien using" + "weapon" + "to get way out of Aliens World");
+
+if(randomnumber === 0) {
+
+  alert("You are killed by Aliens,RIP!");
+
+} else if(randomnumber === 1) {
+
+    alert("You killed the Alien and here is a way out of Aliens World");
